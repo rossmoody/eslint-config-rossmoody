@@ -1,0 +1,28 @@
+{
+	"name": "eslint-config-rossmoody",
+	"version": "1.1.0",
+	"description": "Personal ESLint configuration for learning.",
+	"main": "index.js",
+	"prettier": "prettier-config-rossmoody",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rossmoody/eslint-config-rossmoody.git"
+	},
+	"author": "Ross Moody <ross@rossmoody.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rossmoody/eslint-config-rossmoody/issues"
+	},
+	"homepage": "https://github.com/rossmoody/eslint-config-rossmoody#readme",
+	"peerDependencies": {
+		"@shopify/eslint-plugin": "^40.2.1",
+		"eslint": "^7.25.0",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-plugin-unicorn": "^31.0.0"
+	},
+	"devDependencies": {
+		"prettier-config-rossmoody": "^1.0.2"
+	}
+}
