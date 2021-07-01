@@ -1,14 +1,15 @@
 module.exports = {
-	extends: [
-		'plugin:@shopify/typescript',
-		'plugin:@shopify/typescript-type-checking',
-		'plugin:jsx-a11y/recommended',
-		'plugin:promise/recommended',
-		'plugin:react-hooks/recommended',
-		'plugin:unicorn/recommended',
-		'plugin:@shopify/prettier',
-	],
-	parserOptions: {
-		project: './tsconfig.json',
-	},
+  extends: [
+    'plugin:@shopify/typescript',
+    'plugin:jsx-a11y/recommended',
+    'plugin:promise/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
+    'plugin:@shopify/prettier',
+    'plugin:@shopify/typescript-type-checking',
+  ],
+  parserOptions: {
+    project: './tsconfig.json',
+  },
 }
